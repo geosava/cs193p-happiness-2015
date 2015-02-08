@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Alessandro Marzoli. All rights reserved.
 //
 
-//  IN STORYBOARDS -> View Mode: redraw
+//  In storyvoards: select FaceView > Attributes Inspector > View Mode: redraw
 
 import UIKit
 
@@ -53,6 +53,7 @@ class FaceView: UIView
         smilePath.stroke()
     }
     
+    //Constants in swift
     private struct Scaling {
         static let FaceRadiusToEyeRadiusRatio: CGFloat = 10
         static let FaceRadiusToEyeOffsetRatio: CGFloat = 3
